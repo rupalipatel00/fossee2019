@@ -1,0 +1,34 @@
+Test Case 1-
+
+Note - Please run in remix https://remix.ethereum.org
+
+addUser[]:
+_name : SuperAdmin
+_adr : 11111111111111
+_userId : 0x6aeF08384A6c33a7cf66723711C8BbDe1048F970
+
+----------------------------------------------------------
+
+createNewProperty[] :
+_to: 0xEF72A7a3a25282b4D25657aEFd7863C9E418732d
+_info: Gole Ka Mandir, Gwalior
+_data_hash: 1234abc
+
+----------------------------------------------------------
+
+getUser [] :
+_userId: 0xEF72A7a3a25282b4D25657aEFd7863C9E418732d
+
+Output :
+0: string: Ram
+1: uint256: 12345678123498
+2: uint8: 0
+
+----------------------------------------------------------
+
+addPropertyRequest[] :
+_buyer_id: 0xEF72A7a3a25282b4D25657aEFd7863C9E418732d
+_prop_id: 0x025c38ca0f552902238Cd48450a5e2aa1177eB24
+ipfs_hash: abcdefghijklmnopqrstuvwxyz 
+
+----------------------------------------------------------
